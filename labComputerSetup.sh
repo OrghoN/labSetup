@@ -15,7 +15,7 @@ git config --global user.name "OrghoN"
 git config --global user.email "anoronyo@gmail.com"
 
 #list of atom packages
-packages=( todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl)
+packages = ( todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl )
 
 echo "install relevant atom packages"
 #installing atom plugins
@@ -25,7 +25,9 @@ if [ `apm -v | grep -c apm` -gt "0" ] ; then
       echo $i
       apm install $i
     fi
-    echo "Installed packages"
+  done
+  echo "Installed packages"
+  for i in "${packages[@]}"; do
     if [ `apm list | grep -c $i` -gt "0" ]; then
       echo $i
     fi

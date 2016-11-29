@@ -25,7 +25,9 @@ if [ `apm -v | grep -c apm` -gt "0" ] ; then
       echo $i
       apm install $i
     fi
-    echo "Installed packages"
+  done
+  echo "Installed packages"
+  for i in "${packages[@]}"; do
     if [ `apm list | grep -c $i` -gt "0" ]; then
       echo $i
     fi
