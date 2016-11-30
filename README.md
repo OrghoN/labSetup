@@ -11,7 +11,6 @@ Set's up all Law hall lab computer settings
   * highlight-selected
   * language-hack
   * language-vhdl
-  * markdown-image-paste
   * markdown-scroll-sync
   * minimap-highlight-selected
   * threejs-snippets
