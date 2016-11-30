@@ -15,7 +15,7 @@ git config --global user.name "OrghoN"
 git config --global user.email "anoronyo@gmail.com"
 
 #list of atom packages
-packages=( todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl)
+packages=( atom-hack autocomplete-hack highlight-selected language-hack language-vhdl markdown-image-paste markdown-scroll-sync minimap-highlight-selected threejs-snippets tidy-markdown todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl )
 
 echo "install relevant atom packages"
 #installing atom plugins

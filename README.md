@@ -5,7 +5,17 @@ Set's up all Law hall lab computer settings
 * Enables 4 workspaces
 * Sets default terminal to gnome
 * Set's up git
-* Installs specified atom packages
+* Installs specified atom
+  * atom-hack
+  * autocomplete-hack
+  * highlight-selected
+  * language-hack
+  * language-vhdl
+  * markdown-image-paste
+  * markdown-scroll-sync
+  * minimap-highlight-selected
+  * threejs-snippets
+  * tidy-markdown
   * todo-show
   * minimap
   * autoclose-html
