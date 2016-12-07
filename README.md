@@ -6,9 +6,10 @@ Set's up all Law hall lab computer settings
 * Sets default terminal to gnome
 * Set's up git
 * Installs specified atom
+  * jsdoc-generator
+  * atom-easy-jsdoc
   * latex
   * language-latex
-  * latex-autocomplete
   * atom-hack
   * autocomplete-hack
   * highlight-selected
