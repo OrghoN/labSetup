@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "set focus follow mouse"
+echo "Set focus follow mouse"
 gsettings set org.gnome.desktop.wm.preferences focus-mode 'sloppy'
 
 echo "Set up 4 workspaces"
@@ -24,12 +24,6 @@ if [ `apm -v | grep -c apm` -gt "0" ] ; then
   	if [ `apm list | grep -c $i` -eq "0" ]; then
       echo $i
       apm install $i
-    fi
-  done
-  echo "Installed packages"
-  for i in "${packages[@]}"; do
-    if [ `apm list | grep -c $i` -gt "0" ]; then
-      echo $i
     fi
   done
 fi
