@@ -14,6 +14,15 @@ echo "Set up Git"
 git config --global user.name "OrghoN"
 git config --global user.email "anoronyo@gmail.com"
 
+echo "Remove Tile Backgrounds"
+cd ~/Downloads
+wget https://www.dropbox.com/s/31ory2zycvk5c6x/icons.tar.gz
+mkdir ~/backup_icons_notile
+cp /usr/share/unity/icons/* ~/backup_icons_notile
+cd /usr/share/unity
+tar zxvf ~/Downloads/icons.tar.gz
+cd
+
 #list of atom packages
 packages=( jsdoc-generator atom-easy-jsdoc latex language-latex atom-hack autocomplete-hack highlight-selected language-hack language-vhdl markdown-scroll-sync minimap-highlight-selected threejs-snippets tidy-markdown todo-show minimap autoclose-html color-picker atom-beautify linter file-icons pretty-json markdown-preview-plus markdown-pdf language-hdl )
 
