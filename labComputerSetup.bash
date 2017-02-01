@@ -21,6 +21,8 @@ mkdir ~/backup_icons_notile
 cp /usr/share/unity/icons/* ~/backup_icons_notile
 cd /usr/share/unity
 tar zxvf ~/Downloads/icons.tar.gz
+cd ~/Downloads
+rm icons.tar.gz
 cd
 
 #list of atom packages
