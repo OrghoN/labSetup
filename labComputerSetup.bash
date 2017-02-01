@@ -15,6 +15,7 @@ git config --global user.name "OrghoN"
 git config --global user.email "anoronyo@gmail.com"
 
 echo "Remove Tile Backgrounds"
+
 cd ~/Downloads
 wget https://www.dropbox.com/s/31ory2zycvk5c6x/icons.tar.gz
 mkdir ~/backup_icons_notile
