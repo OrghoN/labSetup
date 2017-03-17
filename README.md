@@ -1,10 +1,11 @@
 # labSetup
 
-Set's up all Law hall lab computer settings
+Set's up all Law hall lab computer settings:
+
 * Focus follows mouse
 * Enables 4 workspaces
 * Sets default terminal to gnome
-* Set's up git
+* Set's up git (no Keys)
 * Installs specified atom
   * jsdoc-generator
   * atom-easy-jsdoc
